@@ -1,0 +1,37 @@
+Para poder utilizar la aplicación debes hacer estos pasos
+
+1- debes instalar xampp.
+
+2- Tienes que modificar el archivo httpd-vhosts que esta en la ruta C:\xampp\apache\conf\extra y debes agregar 
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "C:/xampp/htdocs/tissini"
+    ServerName tissini.mi
+    ErrorLog "logs/dummy-host2.example.com-error.log"
+    CustomLog "logs/dummy-host2.example.com-access.log" common
+</VirtualHost>
+
+3- Tienes que modificar el archivo hosts que esta en la ruta C:\Windows\System32\drivers\etc y debes agregar 
+127.0.0.1           tissini.mi
+
+4- debes reiniciar el apache de xampp para que tome los cambios.
+
+5- debes instalar composer
+link: https://getcomposer.org/download/ y dar clic en donde dice:
+"Descargue y ejecute Composer-Setup.exe : instalará la última versión del compositor cada vez que se ejecute." 
+para Windows, o le deje el instalador en la carpeta del proyecto.
+
+6- Cuando ya instales composer debes abrir tu proyecto y ejecutas la terminal de tu editor de texto y escribes 
+el comando composer install
+
+7- ya puedes empezar a utilizar el proyecto con el siguiente link http://tissini.mi/
+
+8- para ingresar debes diligenciar en el campo NUMER DE TELEFONO lo siguinete para poder ingresar "7865470213"
+
+Espero que te funcione!!! 
+
+Cualquier inquietud ponerte en contacto al 3183715958
+
+
+
+

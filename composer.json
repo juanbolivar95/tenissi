@@ -1,0 +1,28 @@
+{
+  "name": "judaob/tissini",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Juan David Bolívar",
+      "email": "judaob95@hotmail.com"
+    }
+  ],
+  "require": {
+    "ext-curl": "*",
+    "ext-json": "*",
+    "vlucas/phpdotenv": "5.0.0",
+    "ext-mysqli": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tissini\\Views\\": "views",
+      "Tissini\\Models\\": "models",
+      "Tissini\\Controllers\\": "controllers",
+      "Tissini\\Utils\\": "models/utils",
+      "Tissini\\DB\\": "models/db",
+      "Tissini\\Requests\\": "models/requests"
+    }
+  }
+}
